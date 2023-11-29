@@ -1,0 +1,195 @@
+body, h1, h2, p, figure { /*resetting everything to default*/
+    margin: 0;
+    padding: 0;
+}
+
+body { /*applying font style to all of the code with coffee color and background color to beige*/
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.6;
+    background-color: #FFE2B3;
+    color: #694A38;
+}
+
+
+header nav{ /*coloring and alligning the header*/
+    background-color: #C3A490;
+    color: #694A38;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+/* Web-site logo design */
+.logo{
+    float: left;
+    position: relative;
+    margin: 20px 0 0 40px;
+}
+
+
+/*resetting the style for nav ul*/
+nav ul {
+    list-style: none;
+}
+/*adding margin so the buttons don't stick*/
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/*coloring the hyperlinks*/
+a{
+    color: #C82248;
+}
+a:hover{
+    color: #E82855;
+}
+a:visited{
+    color: #9A0024; 
+}
+/*setting the navigational bar color as coffee to match the H1 font*/
+nav a {
+    text-decoration: none;
+    color: #694A38;
+}
+/* Main section styles */
+main { /*applying centered width and adding some margins*/
+    max-width: 1080px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 { /*coloring the h2 with the dark color for the accent on the header*/
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font for h2 */
+}
+
+/* first image on the index.html  */
+.image {
+    float: right;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.image figcaption{
+    text-align: center;
+}
+
+/* first paragraph of history set to justify */
+.justify{
+    text-align: justify;
+}
+
+/* Footer styles */
+footer { /*footer set to the dark color to show that it's the end of the page...*/
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) { 
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    /* Reset float for small screens */
+    figure img {
+        float: none;
+        margin: 0;
+        max-width: 400px;
+        height: auto;
+    }
+
+}
+
+input{ /*COLORING THE INPUTS - LOOK IN THE ORDER HERE PAGE*/
+    border: 1px solid #694A38;
+    background-color: #FBF1E3;
+    color: #694A38; 
+    transition: background-color 0.3s ease;
+}
+input:hover{
+    background-color: #ffe4c4;
+}
+textarea{
+    border: 1px solid #694A38;
+    background-color:#FBF1E3;
+    color: #694A38; 
+    transition: background-color 0.3s ease;
+    width: 750px;
+    height: 50px;
+    resize: none;
+}
+textarea:hover{
+    background-color: #ffe4c4;
+}
+input[type="checkbox"]{
+    background-color: #C3A490;
+}
+input[type="checkbox"]:checked{
+    background-color:#694A38 ;
+}
+button{
+    color: #694A38;
+    background-color: #FBF1E3;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button:hover{
+    color: #694A38;
+    background-color: #ffe4c4;
+    border: none;
+}
+
+/*styling the buttons in the navigation*/
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color:#FFE4C4; 
+    color: #694A38; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.navigation a:hover {
+    background-color: #d4bfa4; 
+}
+
+
+.navigation a:active, .navigation a:focus {
+    outline: none; 
+    box-shadow: 0 0 5px #694A38;
+}
+
+
+/* products.html */
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid white;
+    
+}
+
+
+.scroller {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+.horse-img{
+    margin-left: 100px;
+    margin-top: 10px;
+}
