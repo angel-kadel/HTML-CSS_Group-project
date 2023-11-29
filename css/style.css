@@ -176,4 +176,11 @@ button:hover{
 }
 
 
+/* products.html */
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid white;
+    
+}
+
 
