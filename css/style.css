@@ -11,16 +11,21 @@ body { /*applying font style to all of the code with coffee color and background
 }
 
 
-header { /*coloring and alligning the header*/
+header nav{ /*coloring and alligning the header*/
     background-color: #C3A490;
     color: #694A38;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
-header h1 { /*making the h1 in the header closer to the buttons*/
-    margin-bottom: -0.6em;
+/* Web-site logo design */
+.logo{
+    float: left;
+    position: relative;
+    margin: 20px 0 0 40px;
 }
+
+
 /*resetting the style for nav ul*/
 nav ul {
     list-style: none;
@@ -47,7 +52,7 @@ nav a {
 }
 /* Main section styles */
 main { /*applying centered width and adding some margins*/
-    max-width: 800px;
+    max-width: 1080px;
     margin: 20px auto;
     padding: 0 20px;
 }
@@ -59,6 +64,22 @@ h2 { /*coloring the h2 with the dark color for the accent on the header*/
     padding-bottom: 5px;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif; /* Use Poppins font for h2 */
+}
+
+/* first image on the index.html  */
+.image {
+    float: right;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.image figcaption{
+    text-align: center;
+}
+
+/* first paragraph of history set to justify */
+.justify{
+    text-align: justify;
 }
 
 /* Footer styles */
@@ -154,25 +175,5 @@ button:hover{
     box-shadow: 0 0 5px #694A38;
 }
 
-.image {
-    float: right;
-}
 
-figure {
-    position: relative;
-}
 
-figure img {
-    max-width: 50%;
-    height: auto;
-    float: right;
-    margin: 0 0 20px 20px;
-}
-
-figcaption {
-    margin-top: 10px;
-    float: right;
-    background-color: inherit; 
-    padding: 10px; /* Adjust padding as needed */
-    clear: both;
-}
