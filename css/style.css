@@ -116,16 +116,16 @@ footer { /*footer set to the dark color to show that it's the end of the page...
 
 input{ /*COLORING THE INPUTS - LOOK IN THE ORDER HERE PAGE*/
     border: 1px solid #694A38;
-    background-color:#C3A490;
+    background-color: #FBF1E3;
     color: #694A38; 
     transition: background-color 0.3s ease;
 }
 input:hover{
-    background-color: #ECC6AC;
+    background-color: #ffe4c4;
 }
 textarea{
     border: 1px solid #694A38;
-    background-color:#C3A490;
+    background-color:#FBF1E3;
     color: #694A38; 
     transition: background-color 0.3s ease;
     width: 750px;
@@ -133,7 +133,7 @@ textarea{
     resize: none;
 }
 textarea:hover{
-    background-color: #ECC6AC;
+    background-color: #ffe4c4;
 }
 input[type="checkbox"]{
     background-color: #C3A490;
@@ -143,13 +143,13 @@ input[type="checkbox"]:checked{
 }
 button{
     color: #694A38;
-    background-color: #C3A490;
+    background-color: #FBF1E3;
     border: none;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 button:hover{
-    color: #C3A490;
-    background-color: #694A38;
+    color: #694A38;
+    background-color: #ffe4c4;
     border: none;
 }
 
