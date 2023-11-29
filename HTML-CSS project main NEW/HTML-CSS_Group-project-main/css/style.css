@@ -193,3 +193,9 @@ table, th, td{
     margin-left: 100px;
     margin-top: 10px;
 }
+
+/* order.html */
+/* changing card font-size */
+.card{
+    font-size: 34px;
+}
